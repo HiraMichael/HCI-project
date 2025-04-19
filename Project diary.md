@@ -14,3 +14,4 @@
 	- Later conduct an interview to gather their feedback (e.g., using qualitative content analysis)
 	- While they use the tool, we can design the guided interview
 	- Aim: 2-3 interviewees
+	- Perhaps, add some sort of questionnaire: We could use it to conduct a within-person comparison of the original tool to our improved tool.
