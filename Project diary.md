@@ -35,3 +35,5 @@
 ## TODOs
 - Michael: prepare two slides
 - Michael: send mail with availability (Wednesday, 2pm or afterwards, preferably online)
+- Marten: research mockup design
+- Minu: research scraping options
