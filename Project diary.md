@@ -37,3 +37,40 @@
 - Michael: send mail with availability (Wednesday, 2pm or afterwards, preferably online)
 - Marten: research mockup design
 - Minu: research scraping options
+  
+# April 30, 2025: First Meeting with Dennis
+
+## Communication & Feedback
+- Dennis requests to be regularly informed about any feedback recieved from Tobias
+
+## 🛠Current Issues with Mängelmelder
+- Mängelmelder is managed by an external company.
+- Categories are unclear to citizens; users don’t understand what the labels mean.
+- Personal data requirements are a barrier — a common issue across Mängelmelder in Germany.
+- Currently, the platform can only be used after registering.
+- Accessibility issues: language barriers and the login/register process hinder usability.
+
+## Research & Evaluation Planning
+- Recommended number of interviewees: 4–6.
+- Plan to conduct user interviews with fellow students based on existing knowledge/requirements.
+- Possibility of conducting expert interviews discussed.
+
+## Interview & Survey Design
+- Need to assess whether users actually perceive categorization as a problem.
+- Suggestion: Replace long interviews with a survey including a short interview section.
+- Scraping content for insights or dataset generation – feasibility of scraping pictues questioned.
+- Evaluation idea: Have users categorize or interpret images of posts.
+- Dennis suggests the use of subcategories to improve clarity.
+- Consideration of appropriate interview types for this context.
+
+## UI & Prototyping
+- Figma might be used for prototyping UI elements.
+- Dennis emphasizes the importance of delivering an idea for a UI design as part of the project requirment.
+- Drop-down menus for categories are overwhelming.
+- Suggested improvement: hierarchical selection with main and subcategories via step-by-step interface.
+- Another Idea: integrate ai image recognition into Mängelmelder to enhance usability.
+
+## Tools & Next Steps
+- Survey tools considered: Google Forms, LimeSurvey.
+- Communication with Dennis will continue via Discord.
+- Next meeting: finalize research and design ideas
