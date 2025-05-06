@@ -74,3 +74,39 @@
 - Survey tools considered: Google Forms, LimeSurvey.
 - Communication with Dennis will continue via Discord.
 - Next meeting: finalize research and design ideas
+
+# May 6, 2025 - Answering Gathering Insights Questions / Problem Analysis Design Thinking
+
+## Context: 
+### Where your system is going to be used?
+### When your system is going to be used?
+
+- On the street right after spotting issue / later at home
+### Why your system is going to be used?
+- Issues might propose dangers to public
+- users want there direct surroundings to be pretty and safe
+- users want public space to be working
+## Stakeholders
+
+### By whom your system is going to be used?
+- People living in Oldenburg, adults
+### Whose needs have to be considered?
+### Who will be affected by the usage?
+- people using the system
+- people maintaining the system
+- people taking care of the issues
+- people living Oldenburg, no using the system
+
+## Design Thinking
+### User need
+User: People spotting issues in Oldenburg
+Need: stressful lives, need to have an easy way to communicate issues
+Insight: ...
+
+People spotting issues in Oldenburg need an easy way to communicate that issue in a way that is quick and easy.
+
+### How might we?
+
+How might we make Mängelmelder quicker and easier to use?
+
+
