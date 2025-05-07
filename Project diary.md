@@ -97,16 +97,23 @@
 - people taking care of the issues
 - people living Oldenburg, no using the system
 
+NOTE: Who actually takes care of removing the issues? How do they use the platform? -> Ask Dennis!!!
+
 ## Design Thinking
 ### User need
 User: People spotting issues in Oldenburg
 Need: stressful lives, need to have an easy way to communicate issues
-Insight: ...
+Insight: everybody has a smartphone in their pocket
 
 People spotting issues in Oldenburg need an easy way to communicate that issue in a way that is quick and easy.
 
 ### How might we?
 
 How might we make Mängelmelder quicker and easier to use?
+
+# May 7, 2025 - Weekly Meeting
+- Some more discussion about the stakeholders: Who actually takes care of removing the issues? How do they use the platform? -> Ask Dennis!!!
+- Developing a survey to test categories with pictures, discussing Michaels survey draft in LimeSurvey
+- decision to kick out first question, and expand on the 
 
 
