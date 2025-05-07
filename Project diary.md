@@ -114,6 +114,11 @@ How might we make Mängelmelder quicker and easier to use?
 # May 7, 2025 - Weekly Meeting
 - Some more discussion about the stakeholders: Who actually takes care of removing the issues? How do they use the platform? -> Ask Dennis!!!
 - Developing a survey to test categories with pictures, discussing Michaels survey draft in LimeSurvey
-- decision to kick out first question, and expand on the 
-
+- decision to kick out first question, and expand on the
+## TODOS:
+- finish presentation
+- Minu: look into scraping reported issues for clustering
+- Michael: finish LimeSurvey
+- Marten: research methods for clustering (maybe topic modells)
+   
 
