@@ -120,5 +120,19 @@ How might we make Mängelmelder quicker and easier to use?
 - Minu: look into scraping reported issues for clustering
 - Michael: finish LimeSurvey
 - Marten: research methods for clustering (maybe topic modells)
-   
+
+# May 16, 2025 – Sketch Workshop Results
+
+## Workshop Photo
+![Workshop Photo](images/Sketch_workshop_photo.jpg)
+
+## Storyboard 1
+![Storyboard 1](images/Sketch_workshop_storyboard1.jpg)
+
+## Storyboard 2
+![Storyboard 2](images/Sketch_workshop_storyboard2.jpg)
+
+## Storyboard 3
+![Storyboard 3](images/Sketch_workshop_storyboard3.jpg)
+
 
