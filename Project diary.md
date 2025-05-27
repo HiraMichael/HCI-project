@@ -144,3 +144,12 @@ How might we make Mängelmelder quicker and easier to use?
 - after the thinking aloud process a NASA-TLX survey was filled out by the subject
 - The issue spotted was a leaking salt container
 ![thinkingaloud](https://github.com/user-attachments/assets/a15328ea-ff1e-4c97-97e6-c7dddab59d0e)
+
+# May 27, 2025 - Piloting Thinking Aloud
+- The participant was instructed to identify an issue in the city and report it via the Gemeinsam Oldenburg issue reporting service.
+- While using the service, she was asked to think aloud, and i took notes.
+- She attempted to log in at first but realized she had no login credentials, so she opted for "Continue without logging in" instead.
+- The participant struggled with locating the issue on the map due to the lack of a mouse while being on the go and faced challenges with the address search (uncertainty about street names and issues with house numbering).
+- She also found the category selection confusing, nothng that the options were to broad and unclear.
+- After the Think-Aloud process, a NASA-TLX survey was filled out by the participant.
+- Identified issue: A damaged bike path, where the street pavement was cracked and broken.
