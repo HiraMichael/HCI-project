@@ -153,3 +153,4 @@ How might we make Mängelmelder quicker and easier to use?
 - She also found the category selection confusing, nothng that the options were to broad and unclear.
 - After the Think-Aloud process, a NASA-TLX survey was filled out by the participant.
 - Identified issue: A damaged bike path, where the street pavement was cracked and broken.
+![thinkingaloud](images/think_aloud_damaged_street_pavement.jpg)
