@@ -135,4 +135,12 @@ How might we make Mängelmelder quicker and easier to use?
 ## Storyboard 3
 ![Storyboard 3](images/Sketch_workshop_storyboard3.jpg)
 
-
+# May 20, 2025 - Piloting Thinking Aloud 
+- conducting first thinking aloud interview
+- subject is told to spot an issue in the city and report it via the city issue service
+- while using the service the subject should be thinking out loud and notes are taken by the interviewee
+- during the interview there were some difficulties, because the service was unreachable
+- eventually the subject could find a working link with some intervention
+- after the thinking aloud process a NASA-TLX survey was filled out by the subject
+- The issue spotted was a leaking salt container
+![thinkingaloud](https://github.com/user-attachments/assets/a15328ea-ff1e-4c97-97e6-c7dddab59d0e)
