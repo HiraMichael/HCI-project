@@ -154,3 +154,40 @@ How might we make Mängelmelder quicker and easier to use?
 - After the Think-Aloud process, a NASA-TLX survey was filled out by the participant.
 - Identified issue: A damaged bike path, where the street pavement was cracked and broken.
 ![thinkingaloud](images/think_aloud_damaged_street_pavement.jpg)
+
+# June 03, 2025 - Working on the survey
+- **Updated idea**: A/B testing with the original Mängelmelder serving as A and our prototype serving as B
+- **Dependent variable(s)**
+	- **Subjective ease of categorization**: item measuring self-reported ease of categorization -> difficulty, confidence
+		- One option is to use measurements of post-decision confidence: E.g., Pleskac and Busemeyer had respondents rate their post-decision confidence after completing a task using a keyboard with keys for 50, 60, 70, 80, 90, and 100 percent confidence
+		- NASA-TLX offers measurements concerning...
+			- Mental demand
+			- Physical demand
+			- Temporal demand
+			- Performance
+			- Effort
+			- Frustration
+		- Using NASA-TLX
+			- Has the advantage of employing a tested scale
+			- Has the disadvantage of not directly asking with regard to categorization
+			- If we use it, we would have to make the assumption that e.g., high mental demand is because of categorization. It would, however, be exceedingly difficult to show that it is not due to other factors.
+		- Using the confidence scale, could be rephrased in terms of ease of categorization. The only disadvantage would be that we are not really using a tested instrument, because we would have to adapt it. The advantage would be that we do not establish a link based on a range of assumptions.
+	- **Objective ease of categorization**: Level of agreement with regard to the selected category
+	- Technically, both could be measured with regard to every single picture, but it makes more sense to not do this
+		- Measuring ease of categorization for each picture would introduce many additional and repetitive items, increasing the risk that respondents do not complete the survey
+		- Level of agreement takes indirectly takes into account every picture anyway (and a more specific analysis could be conducted without introducing additional items later on if deemed necessary)
+- **Independent variables**
+	- Assigned **group** as main predictor
+	- Control variables
+		- **Familiarity** with Mangelmelder
+		- **Socio-demographic predictors**
+		- **Order of stimuli**
+		- **Completion time**
+		- **Web/mobile**
+- **Analysis methods**
+	- Probably, linear regression for subjective ease of categorization
+	- Probably, ANOVA for objective ease of categorization
+
+# June 04, 2025 - Follow-up meeting with Dennis
+- Presentation of progress, i.e. thinking aloud results, scraped data set, Figma prototype, survey idea
+- Discussion about which algorithms to use for clustering (e.g., BERT topic modeling, K-means clustering, T-SNE)
