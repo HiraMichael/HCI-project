@@ -191,3 +191,20 @@ How might we make Mängelmelder quicker and easier to use?
 # June 04, 2025 - Follow-up meeting with Dennis
 - Presentation of progress, i.e. thinking aloud results, scraped data set, Figma prototype, survey idea
 - Discussion about which algorithms to use for clustering (e.g., BERT topic modeling, K-means clustering, T-SNE)
+
+# June 13, 2025 - Discussion with Mikołaj
+- For scraped data: Consider bias when writing complained -> category has already been selected
+- Suggestion: apply clustering algorithm and then use card sorting to actually extract the information infrastructure/tree structure of the extracted categories
+	- Card sorting: sorting cards into families
+	- Have potential users group our categories
+	- What should be high-level/low-level -> constructing the tree of categories
+	- Recruit 5-7 people to group categories which we have extracted using clustering -> individually (not as a group)
+	- Then have them assign example complaints
+- Two potential measures for subjective ease of categorization (which we would use when evaluating the prototype, rather than the information architecture)
+	- Rating scale mental effort (RSME)
+	- UMUX
+- Give them a way to express how easy/difficult it was to categorize things (e.g., free text)
+- Ensure that people who are involved in card-sorting are not involved in the survey
+- Identify causes of confusion during card sorting -> good empirical result
+- Not randomly selected pictures, but representative: select different categories, confusing ones
+- **Conclusion**: Use survey to evaluate information architecture (rather than prototype itself) and use results from card sorting to gather qualitative data for the next iteration of the design cycle
