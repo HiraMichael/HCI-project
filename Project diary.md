@@ -208,3 +208,13 @@ How might we make Mängelmelder quicker and easier to use?
 - Identify causes of confusion during card sorting -> good empirical result
 - Not randomly selected pictures, but representative: select different categories, confusing ones
 - **Conclusion**: Use survey to evaluate information architecture (rather than prototype itself) and use results from card sorting to gather qualitative data for the next iteration of the design cycle
+# June 13, 2025 - June 30, 2025
+- working on clustering algortihms
+  	- topic model
+  	- embedding + k-means clustering
+# July 02, 2025 - Meeting 
+- roadmap for the next weeks before deadline
+- discussing clustering and deciding on categories that will be used in card sorting
+- preparing card sorting
+
+- writing instructions: Hallo :) Wir arbeiten in einem Projekt daran, den Mängelmelder der Stadt Oldenburg zu verbessern. Hier können Bürger:innen verschiedene Probleme und Verbesserungsvorschläge für den öffentlichen Raum melden - und dann wird sich darum gekümmert! Für den Mängelmelder haben wir neue Kategorien erstellt, mit dem du ein Card-Sortung durchführen sollst. Dafür sollst du die Kategorien, die wir vorgegeben haben einer Überkategorie zuordnen. Wir haben sieben Überkategorien eingestellt - davon musst du nicht unbedingt jede benutzen. Falls du eine Überkategorie benutzt, finde bitte auch einen passenden Titel für diese. Wenn du fertig bist, klicke auf "Share Results" und sende uns den so erstellten linkt zu. Vielen Dank! Hier gelangst du zum Card Sorting.
