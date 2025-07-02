@@ -212,6 +212,297 @@ How might we make Mängelmelder quicker and easier to use?
 - working on clustering algortihms
   	- topic model
   	- embedding + k-means clustering
+# June 20, 2025
+Decision for BERT Topic Model, as it produces the best results
+## Top words per topic
+![top_words_per_topic](https://github.com/user-attachments/assets/fe9b8732-489f-4e1c-addd-7ad7b2d3a77a)
+## Top original (i.e. unprocessed) documents per topic
+Topic 0:
+  Document 8:
+  Bei den Müllcontainern liegt Müll
+
+  Document 9:
+  An den Container liegt sehr viel Müll
+
+  Document 17:
+  Müllansammlung an den Wertstoffcontainern
+
+
+
+Topic 1:
+  Document 5:
+  Straßenbeleuchtung so enorm zugewachsen das kein Licht mehr zu sehen ist
+
+  Document 22:
+  Wenn man die Ofener Str. Richtung Westkreuz fährt und dann Tappenbeckstr. Und Tirpitzstr., da müssen die Hecken geschnitten werden! Die verdecken die Hälfte des Fußwegs.
+
+  Document 29:
+  Hoher Absatz in der Fahrbahn
+
+
+
+Topic 2:
+  Document 434:
+  An der Bahnhofsalle hängen noch Wahlplakate der Partei MLPD.
+Bitte entfernen
+
+  Document 475:
+  Ampelmast vollgeklebt mit Fußball / VfB Sticker
+
+  Document 500:
+  Auf dem Stoppschild am Westfalendamm, Einfahrt in den Damm, befindet sich der Schriftzug einer politischen Partei. Ich bitte darum, diesen Schriftzug schnellstmöglich zu entfernen.
+
+
+
+Topic 3:
+  Document 46:
+  Auf dem Langenweg, Ecke Stiekelkamp ist die Ampel defekt. Der Taster funktioniert nicht mehr und viele gehen bei Rot über die Straße.
+
+  Document 52:
+  Stark verstecktes Verkehrsschild
+
+  Document 73:
+  Bei einem Auszug wurde eine Matraze und ein Matrazenschoner an der Straße entsorgt. Der Verursacher ist bekannt.
+
+
+
+Topic 4:
+  Document 51:
+  Auf dem öffenlich zugänglichen Parplatz stehen mehrere abgemeldete Autos.
+Hier scheint gewerbsmäßig mit Autos gehandelt zu werden.
+
+  Document 60:
+  Vor dem Haus ist eine gekennzeichnete Parkfläche auf der ein Transporter mit Anhänger parkt. Dadurch wird die Einfahrt zur hälfte blockiert und die Sicht ist eingeschränkt.
+
+  Document 63:
+  Zwei PKWs stehen am Anfang der Straße ohne Nummernschilder. Beide Dunkelblau bis schwarz.
+
+
+
+Topic 5:
+  Document 11:
+  Wild angelegter Sperrmüll
+
+  Document 47:
+  Drückampel Langenweg/Stiekelkamp nicht funktionsfähig
+
+  Document 57:
+  Die Bedarfsampel beim Altenheim geht gar nicht.
+
+
+
+Topic 6:
+  Document 32:
+  Der Fußweg am Triftweg steht bei stärkeren Regenfällen bereichsweise unter Wasser, sodass Kinderwagen und Rollstuhlfahrer auf die Fahrbahn ausweichen müssen,
+siehe Fotos im Bereich Triftweg 8, 3 und Einmündung Heidelberger Straße.
+Der Fußweg wird nicht ausreichend gepflegt. Die Entwässerung muss überprüft werden.
+Der Fußweg muss entweder eben ausgebessert werden oder das Begleitgrün muss abgesenkt werden, damit das Regenwasser versickern kann. Dieser Mangel besteht seit mehreren Jahren und wird zu wenig beachtet.
+Der Mangel gefährdet die Verkehrssicherheit.
+
+  Document 38:
+  Bitte Randstein entfernen. 
+Da der Weg über die Jahre breiter geworden ist, was auch nötig ist, da hier vormittags und nachmittags viele Kinder und Spaziergänger unterwegs sind, befindet sich der ursprüngliche Randstein jetzt mitten auf dem Weg. 
+Im Winter ist ein Kind am Randstein mit dem Fahrrad hängengeblieben, ist gestürzt und hat sich zum Glück nur leicht verletzt.
+
+  Document 58:
+  In der Bürgerstraße sind bei verschiedenen Hausgrundstücken die Hecken schon weit auf den Bürgersteig gewachsen (z. B. bei Nr 6, Nr 99), so dass der Bürgersteig für Menschen mit Rollatoren oder Rollstuhl, Kinderwagen etc. kaum zu benutzen ist.
+
+
+
+Topic 7:
+  Document 13:
+  Hinter der Bushaltestelle  auf Höhe Trommelweg liegt ein zerfetzer gelber Sack!
+
+Müll erst raus wenn Abholtag ist.
+
+Der scheint schon länger da zu sein...
+
+Bitte entsorgen  stört die Optik und verengt den Fußweg.
+
+  Document 26:
+  Hallo, An der Bushaltestelle hat jemand mehrere Mülltüten mit Hausmüll abgestellt. Vielen Dank fürs Kümmern.
+
+  Document 80:
+  Bushaltestellenscheibe "Im Krusenbusch" stadteinwärts liegt in Scherben.
+
+
+
+Topic 8:
+  Document 64:
+  Starke Vermüllung am Altkleidercontainer Glascontainer am sprungweg hier sind wieder große Mengen an Müll klamottenkleidung und irgendwelche Gegenstände abgestellt
+
+  Document 82:
+  Altpapier erneut nicht abgeholt
+
+  Document 109:
+  Es ist dauerhaft Müll in diversen Variationen vorzufinden. Von Glasswolle bis McD Tüten ist alles dabei.
+
+
+
+Topic 9:
+  Document 10:
+  Im Wassergraben zwischen Staulinie und Staugraben liegt eine Restmülltonne.
+
+  Document 18:
+  Seit Aufbruch der Straße durch den Netzbetreiber, läuft der Gully nicht mehr ab und die Straße steht bei starken Regenfällen unter Wasser.
+
+  Document 34:
+  Entwässerung vom Etzhorner Weg nördlich der Kreuzung mit Triftweg funktioniert nicht.
+ Pfützenbildung in der Bankette führt zu Fahrbahnschäden, Straßenbegleitgrün sollte m.E. tiefergelegt werden,
+damit das Regenwasser vesickern kann.
+
+
+
+Topic 10:
+  Document 105:
+  Auf dem Wendehammer des Krögerkamps beim Kreyenbrücker Wasserzug liegt seit einer Woche dieser Sperrmüll.
+
+  Document 116:
+  Am Fahrradweg entlang des Kreyenbrücker Wasserzugs steht Müll, neben einer Sitzbank, etwa zwanzig Metter südlich vom Eidechsenweg.
+
+  Document 128:
+  mal wieder Sperrmüll unter der Autobahnbrücke
+
+
+
+Topic 11:
+  Document 104:
+  Dwaschweg/Johann-Heinrich-Brandes-Str.,rechts in den Gehweg rein, 3 m wieder rechts drei große Einkaufstüten mit Müll. 
+Dwaschweg Gehweg zwischen Sprungweg und Einfahr Sportplatz, rechts zur Fahrbahn eine große Einkaufstüte mit Müll.
+
+  Document 265:
+  Sehr geehrte Mitarbeiter:innen,
+zwei Teppiche, ein alter Reifen und ein Seil am Baum liegen/sind auf dem Waldweg parallel zur Tennishalle und der Wiese.
+Bitte entsorgen Sie den Müll.
+J.Pein juergen.pein@ewetel.net
+
+  Document 277:
+  Aus Ofenerdiek kommend Richtung Wilhelmshavener Herrstraße ist das rote Licht der mittleren Ampel defekt.
+
+
+
+Topic 12:
+  Document 1:
+  Ecke Nadorster Strasse / Lindenhofsgarten ist diverser Abfall illegal abgelegt worden.
+
+  Document 2:
+  In dem Gang Bogenstrasse / Goethestrasse Höhe Hausnummer 36 ist erneut illegal Abfall entsorgt worden.
+
+  Document 70:
+  Illegale Müllentsorgung von zwei Dunkeln schwarzen Säcken an der Straße
+
+
+
+Topic 13:
+  Document 61:
+  In der Kurve von der Rennplatzstr. - Butjadinger Str. Muss das Gebüsch  geschnitten werden, denn es verdeckt Teilweise die Schilder!
+Und da wo die AB Ohmstede von Nadorster Str. her runter kommt, muss der Asphalt  unten die Schlaglöcher  reparieren!
+
+  Document 72:
+  Risse im Asphalt auf dem Sprungweg , Nahe der Autobahnbrücke und dem Wendeplatz .
+Grosse Gefahr für Radfahrer !!!
+
+  Document 75:
+  wo die Blumenstr. in die Peterstr. mündet, da muß der Asphalt erneuert werden!
+Als Auto schon nicht schön, wenn man rein fährt und per Rad  beide Seiten her extrem gefährlich zu fahren!
+
+
+
+Topic 14:
+  Document 78:
+  an den Müllcontainer ist ein schwarzes Sofa angelehnt
+Bitte entfernen
+stört die Optik
+
+  Document 106:
+  Gegenüber der Myliusstraße 7 steht seit längerem dieser Bürostuhl.
+
+  Document 262:
+  Bereits am 27.03. und am 04.04. hatte ich Speermüll über die E-Mail des Ordnungsamtes gemeldet. Dieser wurde mindestens eine Woche vor dem 27.03. auf Höhe des Seggenwegs 4 auf dem Gehweg abgeladen. Ursprünglich befand sich dabei auch ein Sofa, das am 04.04. aber weg war. Bei dem Verursacher handelt es sich um einen ehemaligen Mieter aus dem Seggenweg 6. Vermieter ist hausverwaltung@bt-immobilien-oldenburg.de
+Das angehängte Bild zeigt die aktuelle Situation. Da nun fast drei Wochen nichts passiert ist, habe ich bei der Stadt angerufen und wurde auf diese Möglichkeit der Meldung hingewiesen.
+
+
+
+Topic 15:
+  Document 45:
+  Auf dem Geh- und Radweg ragen mehrere Äste über den Zaun
+
+  Document 117:
+  Sperrmüll im Wendekreis liegt hier seit ca einer Woche. 
+Weiter hinten liegt am Bach / Radweg auch noch etwas.
+
+  Document 123:
+  Strecke wwist in gesamter Länge immer mal Schlaglöcher  auf!
+Bitte richten...
+
+
+
+Topic 16:
+  Document 115:
+  Wenn man aus dem Rummerweg stadtauswärts auf die Ofener Straße möchte ist die Sicht auf den Verkehr der aus der Stadt kommt durch das wuchernde Grün sehr eingeschränkt. Bitte das untere Grün an der Ofener Straße dringend beschneiden. Vielen Dank!
+
+  Document 120:
+  Die grüne Fußgängerampel am Ende des Quellenwegs (Bloherfelder Str.) ist auf einer Seite defekt.
+
+  Document 169:
+  Grün ragt auf Gehweg, Bürger sprechen uns an. Höhe Hausnummer 9
+
+
+
+Topic 17:
+  Document 33:
+  im Seitengraben vom Triftweg am Haus Etzhorner Weg 71 und gegenüber im anderen Seitengraben des  Triftwegs wächst der  invasive japanische Riesenknöterich seit mehreren Jahren immer weiter.
+Laut Merkblatt der Landwirtschaftskammer Niedersachsen
+ist diese Pflanze so früh wie möglich zu beseitigen, weil sonst eine Bekämpfung wegen der unterirdischen Rhizome sehr aufwendig sein werde.
+
+  Document 100:
+  Grünanlagen von Ackerstraße 18 wuchern weit auf den Gehweg.
+
+  Document 141:
+  an der Ecke Bloherfelderstr./Eichenstr. Nahe der Litfaßsäule liegt seit Wochen ein defekter Rattanstuhl und er wird langsam von der Vegetation überwuchert.
+Schade, dass die Menschen so etwas immer wieder wild entsorgen!
+
+
+
+Topic 18:
+  Document 3:
+  Am Containerstellplatz Ecke Nedderend wurde diverser Hausmüll entsorgt.
+
+  Document 4:
+  Gefrier-Kühlschrank abgelegt
+
+  Document 55:
+  Am Containerstellplatz Brookweg/Kattowitzer Straße wurde diverser Hausmüll entsorgt, u.a. Teppiche, Spielzeug, Stühle, Katzenbaum (zerlegt), pp.
+
+
+
+Topic 19:
+  Document 14:
+  Unter der Autobahnbrücke liegt Müll!
+
+  Document 21:
+  Am Ende der Straße hinter der Brücke über der Bäke wurde Hausmüll entsorgt.
+
+  Document 245:
+  Kreyenstr 41 Unter der Autobahnbrücke (Richtung Nadorster Str auf dem rechten Bürgersteig) liegt Müll
+
+
+
+Topic 20:
+  Document 196:
+  wenn man von der Ofener Str. in den Rummelweg rein schaut, da ist das Schild links sehr weit nach vorne verbogen!
+Stange schaut doll rostig aus!
+Bitte Richten!
+Nicht das es umfällt und den Gehweg oder die Str. gefährdet!
+
+  Document 222:
+  Das Spielstraßen-Schild wurde beschmiert.
+
+  Document 229:
+  Siehe Foto, angekettetes Schrottrad
+## Extracted topic hierarchy (not the one we are going to use, but perhaps an interesting point of reference)
+![topic_hierarchy](https://github.com/user-attachments/assets/8004594f-d8c3-4732-bf06-3b8f15ad6ea8)
+
 # July 02, 2025 - Meeting 
 - roadmap for the next weeks before deadline
 - discussing clustering and deciding on categories that will be used in card sorting
