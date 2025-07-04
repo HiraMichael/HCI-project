@@ -514,6 +514,24 @@ Nicht das es umfällt und den Gehweg oder die Str. gefährdet!
 ## Result 1
 ![image](https://github.com/user-attachments/assets/9870ec4d-a952-4565-a8bd-264d4eaabf86)
 
+## Result 2
+![image](https://github.com/user-attachments/assets/c67cc291-d665-4029-9d48-dcdd6e2d8cf8)
+
+## Result 3
+![image](https://github.com/user-attachments/assets/b25ef29a-c376-4b2a-8615-1a87e0f2dc7f)
+
+## Result 4
+![image](https://github.com/user-attachments/assets/e2ee3de9-39f5-4c6a-bef9-9feb9fdfa00d)
+
+## Result 5
+![image](https://github.com/user-attachments/assets/8d7ebc06-de0e-406e-b122-153bf92a0d89)
+
+## Result 6
+![image](https://github.com/user-attachments/assets/884652a0-c89d-4089-9778-09f96c846808)
+
+## Result 7
+![image](https://github.com/user-attachments/assets/7d9031e5-c5bc-432d-8ba2-1a09ce30fafc)
+
 # July 04, 2025 - Meeting
 ## Analyzing Card Sorting
 First step: Take all top-level categories as given by our card sorting participants, group them into four categories, and label them (i.e. card sorting of card sorting results).
