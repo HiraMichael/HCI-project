@@ -509,3 +509,12 @@ Nicht das es umfällt und den Gehweg oder die Str. gefährdet!
 - preparing card sorting
 
 - writing instructions: Hallo :) Wir arbeiten in einem Projekt daran, den Mängelmelder der Stadt Oldenburg zu verbessern. Hier können Bürger:innen verschiedene Probleme und Verbesserungsvorschläge für den öffentlichen Raum melden - und dann wird sich darum gekümmert! Für den Mängelmelder haben wir neue Kategorien erstellt, mit dem du ein Card-Sortung durchführen sollst. Dafür sollst du die Kategorien, die wir vorgegeben haben einer Überkategorie zuordnen. Wir haben sieben Überkategorien eingestellt - davon musst du nicht unbedingt jede benutzen. Falls du eine Überkategorie benutzt, finde bitte auch einen passenden Titel für diese. Wenn du fertig bist, klicke auf "Share Results" und sende uns den so erstellten linkt zu. Vielen Dank! Hier gelangst du zum Card Sorting.
+
+# July 04, 2025 - Meeting
+## Analyzing Card Sorting
+First step: Take all top-level categories as given by our card sorting participants, group them into four categories, and label them (i.e. card sorting of card sorting results).
+![grafik](https://github.com/user-attachments/assets/5358e015-4470-4a2b-bbac-9e27f144637d)
+
+Second step: Use our derived top-level categories from step 1 and assign all bottom-level categories as done by our card sorting participants to the derived categories according to the top-level category provided by the participant.
+![grafik](https://github.com/user-attachments/assets/8276d68e-f969-4991-81a2-66cc877c815c)
+
