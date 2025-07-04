@@ -512,7 +512,8 @@ Nicht das es umfällt und den Gehweg oder die Str. gefährdet!
 
 # July 03, 2025 - Card Sorting Results
 ## Result 1
-![Result 1](Card Sorting/Image 2025-07-02 at 19.40.52.jpeg)
+![image](https://github.com/user-attachments/assets/9870ec4d-a952-4565-a8bd-264d4eaabf86)
+
 # July 04, 2025 - Meeting
 ## Analyzing Card Sorting
 First step: Take all top-level categories as given by our card sorting participants, group them into four categories, and label them (i.e. card sorting of card sorting results).
