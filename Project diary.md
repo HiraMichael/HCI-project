@@ -540,3 +540,8 @@ First step: Take all top-level categories as given by our card sorting participa
 Second step: Use our derived top-level categories from step 1 and assign all bottom-level categories as done by our card sorting participants to the derived categories according to the top-level category provided by the participant.
 ![grafik](https://github.com/user-attachments/assets/8276d68e-f969-4991-81a2-66cc877c815c)
 
+# July 06, 2025 - Posting Survey on StudIP
+
+![image](https://github.com/user-attachments/assets/2ac71367-cbec-4539-845f-c72ff933a5a9)
+
+
