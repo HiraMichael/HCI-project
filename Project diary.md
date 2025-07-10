@@ -212,6 +212,98 @@ How might we make Mängelmelder quicker and easier to use?
 - working on clustering algortihms
   	- topic model
   	- embedding + k-means clustering
+## TF-IDF-Embedding
+-> Embedding based on term frequency
+- clustering with k-means-clustering
+- visualization with TSNE (dimension reduction)
+<img width="851" height="705" alt="image" src="https://github.com/user-attachments/assets/c80bbbf0-d048-4d6a-9976-0da01192a82b" />
+Cluster 0:
+Number: 31
+Top words: sehen, foto, beschmiert, schild, brücke
+Representative documents: ['Straßenbeleuchtung enorm zugewachsen Licht sehen', 'Parkplatz Kleingart gehören direkt   groß Menge Müll Sperrgut Abgelade z b ferner sehen erneut renovieren all brauchen hingeschmissen sehen Woche fühlen', '    stehen stark regenfäll Bereichsweis Wasser sodass kinderwag Rollstuhlfahrer Fahrbahn ausweichen sehen Foto Bereich   Einmündung heidelberger     ausreichend pflegen Entwässerung überprüfen   ausgebessern Begleitgrün abgesenkt Regenwasser versickern Mangel bestehen mehrere beachten Mangel gefährden Verkehrssicherheit']
+Cluster 1: - Number of documents before filtering: 65
+Cluster 1:
+Number: 65
+Top words: aufkleber, werbung, fußball, unterhaltungsfußball, vfb
+Representative documents: ['vfb aufkleber', 'Aufkleber Werbung Unterhaltungsfußball vfb Oldenburg Fußball gmbh Verkehrszeich bitte entfernen', 'Aufkleber Werbung Unterhaltungsfußball vfb Oldenburg Fußball gmbh Verkehrszeich bitte entfernen']
+Cluster 2: - Number of documents before filtering: 78
+Cluster 2:
+Number: 78
+Top words: liegen, woche, mehrere, graben, sperrmüll
+Representative documents: ['wassergraben Staulinie staugraben liegen Restmülltonne', 'fahrradwwg   Ofener strn führen liegen Schwarzer fahrradrahmen somit Metallschrott Entsorgung', '  liegen Papkarton   teilweise wind   Müsst entfernt']
+Cluster 3: - Number of documents before filtering: 35
+Cluster 3:
+Number: 35
+Top words: wild, müllkippe, befinden, liegen, entsorgen
+Representative documents: ['wild angelegt Sperrmüll', 'Stelle befinden wild Müllkippe bestehend mehrere Abfallsäcke', 'wild Müllkippe schreibtisch kräuterei sein dankbar zeitnah abholen können danker voraus']
+Cluster 4: - Number of documents before filtering: 47
+Cluster 4:
+Number: 47
+Top words: ecke, schlagloch, höhe, tief, cm
+Representative documents: ['Ecke     Müllentsorgung  ', 'Ecke Müll entsorgen Balkonkästen Erde Pflanze Karton unbekannt Inhalt', '  Stadteinwärt Richtung hauptstrn unterwegs abfahren Kreyenbrück komplett unten riesig schlagloch radfahr stark Gefahr fahrzeug Runter fahren umgehend erneuern']
+Cluster 5: - Number of documents before filtering: 69
+Cluster 5:
+Number: 69
+Top words: müll, liegen, abgelade, abstellen, bild
+Representative documents: ['Famila   liegen rechts Müll Gebüsch bitte entfernen', 'Straßenrand liegen Müll Rum', 'müllcontainern liegen Müll']
+Cluster 6: - Number of documents before filtering: 77
+Cluster 6:
+Number: 77
+Top words: stehen, anhänger, woche, kennzeichen, öffentlich
+Representative documents: ['gut     Höhe spielplatzes stehen rasenmäh öl auslaufen vg', 'Aufbruch   Netzbetreiber laufen Gully   stehen stark regenfäll Wasser', 'vorfahrtszeichen   einfahren   stehen schräg hinten Bzw Seite']
+Cluster 7: - Number of documents before filtering: 25
+Cluster 7:
+Number: 25
+Top words: illegal, müllentsorgung, abfall, müllablage, entsorgen
+Representative documents: ['Ecke nadorst   lindenhofsgaren diverser Abfall illegal ablegen', 'Gang     Höhe   erneut illegal Abfall entsorgen', 'illegal Entsorgung hartensch Damm Parkplatz haaren']
+Cluster 8: - Number of documents before filtering: 421
+Cluster 8:
+Number: 421
+Top words: höhe, entsorgen, schlaglöch, befinden, sperrmüll
+Representative documents: ['Containerstellplatz Ecke nedderend diverser Hausmüll entsorgen', 'ablegen', 'u alt Küchlschrank entsorgen widerlich Richtung Norden linker Seite']
+Cluster 9: - Number of documents before filtering: 45
+Cluster 9:
+Number: 45
+Top words: ampel, defekt, grün, fußgänger, richtung
+Representative documents: ['  Ecke Stiekelkamp Ampel defekt Taster funktionieren rot  ', 'Fußgängeampel defekt', '  einbiegen gesamt   defekt Radfahrer gefährlich Auto sämtlichen seitenstren         ständig falsch parken nahe Kurv strn münde Gefahr beseitigen']
+
+## word2vec-Embedding
+-> Embedding with neural network 
+- clustering with k-means-clustering
+- visualization with TSNE (dimension reduction)
+<img width="851" height="705" alt="image" src="https://github.com/user-attachments/assets/f15a9caf-310c-4b1f-b177-9a7324e498c2" />
+
+Cluster 8:
+liegen, vfb, bitte, fahren, abstellen, Fahrzeug, beschädigen, vermutlich, Mülleimer, Karton
+
+Cluster 1:
+stehen, Müll, Ecke, mal, Seite, Parkplatz, ca, Spielplatz, Fußgänger, Verkehrszeich
+
+Cluster 3:
+Oldenburg, Unterhaltungsfußball, Woche, Richtung, Ampel, Gmbh, Auto, entfernen, gefährlich, graben
+
+Cluster 6:
+Aufkleber, Fußball, befinden, wild, schlaglöch, rechts, Foto, Sperrmüll, defekt, alt
+
+Cluster 4:
+Höhe, Werbung, entsorgen, Loch, hängen, unten, breit, See, schief, Runter
+
+Cluster 0:
+sehen, mehrere, Bereich, Haus, gmbh, Müllkippe, teilweise, Monat, Stelle, Schild
+
+Cluster 2:
+strn, Einmündung, direkt, Asphalt, Autobahn, Ca, handeln, verschmutzen, Platz, kennzeichen
+
+Cluster 5:
+stark, illegal, Abfall, schön, kommend, gut, Grundstück, mittlerweile, Bemühung, Rad
+
+Cluster 9:
+zeigen
+
+Cluster 7:
+Kanal, dankbar, per, verletzen, Plastik, unterspült, unbekannt, Erde, p, r
+
+
 # June 20, 2025
 Decision for BERT Topic Model, as it produces the best results
 ## Top words per topic
