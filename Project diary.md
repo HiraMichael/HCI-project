@@ -155,6 +155,11 @@ How might we make Mängelmelder quicker and easier to use?
 - Identified issue: A damaged bike path, where the street pavement was cracked and broken.
 ![thinkingaloud](images/think_aloud_damaged_street_pavement.jpg)
 
+# May 30, 2025 - Joint interpretation session
+- Meeting to analyze our thinking aloud protocols using pen and paper
+- Categorization, indeed, is a major issue
+- Other issues: Knowing your location, mobile friendliness
+
 # June 03, 2025 - Working on the survey
 - **Updated idea**: A/B testing with the original Mängelmelder serving as A and our prototype serving as B
 - **Dependent variable(s)**
@@ -649,3 +654,8 @@ Second step: Use our derived top-level categories from step 1 and assign all bot
 
 # July 07, 2025 - Finalizing Prototype
 Finishing up the prototype with the decided topics in Figma.
+
+# July 09, 2025 - Finishing data analysis
+- Wilcoxon signed-rank for objective ease of categorization
+- OLS regression for subjective ease of categorization
+- Regression diagnostics for OLS shows the mode to be appropriate enough
